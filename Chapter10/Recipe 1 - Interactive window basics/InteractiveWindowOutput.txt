@@ -1,0 +1,22 @@
+Microsoft (R) Roslyn C# Compiler version 2.1.0.61520
+Loading context from 'CSharpInteractive.rsp'.
+Type "#help" for more information.
+> Console.WriteLine("Hello, World!")
+Hello, World!
+> var myList = new List<int> { 3, 2, 7, 4, 9, 0 };
+> myList.Where(x => x % 2 == 0)
+Enumerable.WhereListIterator<int> { 2, 4, 0 }
+> $"The current directory is { Environment.CurrentDirectory }."
+"The current directory is C:\\Users\\mavasani."
+> using System.Threading.Tasks;
+> await Task.Delay(10000)
+> class C
+. {
+.     public void M()
+.     {
+.         Console.WriteLine("C.M invoked");
+.     }
+. }
+> new C().M();
+C.M invoked
+> 

@@ -1,0 +1,22 @@
+Microsoft (R) Roslyn C# Compiler version 2.1.0.61520
+Loading context from 'CSharpInteractive.rsp'.
+Type "#help" for more information.
+> int x = 0;
+> Console.WriteLine(x);
+0
+> #reset
+Resetting execution engine.
+Loading context from 'CSharpInteractive.rsp'.
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Core.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Xml.Linq.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Data.DataSetExtensions.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Microsoft.CSharp.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Data.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Net.Http.dll"
+> #r "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Xml.dll"
+> #r "ClassLibrary.dll"
+> using ClassLibrary;
+> Console.WriteLine(x);
+(1,19): error CS0103: The name 'x' does not exist in the current context
+> 

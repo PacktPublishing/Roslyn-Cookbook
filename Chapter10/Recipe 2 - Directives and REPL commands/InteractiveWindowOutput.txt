@@ -1,0 +1,47 @@
+Microsoft (R) Roslyn C# Compiler version 2.1.0.61520
+Loading context from 'CSharpInteractive.rsp'.
+Type "#help" for more information.
+> #r "C:\Users\mavasani\AppData\Local\Temp\Newtonsoft.Json.dll"
+> using Newtonsoft.Json.Linq;
+> JArray array = new JArray();
+. array.Add("Manual text");
+. array.Add(new DateTime(2000, 5, 23));
+. 
+. JObject o = new JObject();
+. o["MyArray"] = array;
+. 
+. o.ToString()
+"{\r\n  \"MyArray\": [\r\n    \"Manual text\",\r\n    \"2000-05-23T00:00:00\"\r\n  ]\r\n}"
+> #clear
+> 
+>
+>
+>
+> #load "C:\Users\mavasani\AppData\Local\Temp\MyScript.csx"
+Executing MyScript.csx
+> #reset
+Resetting execution engine.
+Loading context from 'CSharpInteractive.rsp'.
+> using Newtonsoft.Json;
+(1,7): error CS0246: The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?)
+> #help
+Keyboard shortcuts:
+  Enter                If the current submission appears to be complete, evaluate it.  Otherwise, insert a new line.
+  Ctrl-Enter           Within the current submission, evaluate the current submission.
+                       Within a previous submission, append the previous submission to the current submission.
+  Shift-Enter          Insert a new line.
+  Escape               Clear the current submission.
+  Alt-UpArrow          Replace the current submission with a previous submission.
+  Alt-DownArrow        Replace the current submission with a subsequent submission (after having previously navigated backwards).
+  Ctrl-Alt-UpArrow     Replace the current submission with a previous submission beginning with the same text.
+  Ctrl-Alt-DownArrow   Replace the current submission with a subsequent submission beginning with the same text (after having previously navigated backwards).
+  Ctrl-K, Ctrl-Enter   Paste the selection at the end of interactive buffer, leave caret at the end of input.
+  Ctrl-E, Ctrl-Enter   Paste and execute the selection before any pending input in the interactive buffer.
+  Ctrl-A               First press, select the submission containing the cursor.  Second press, select all text in the window.
+REPL commands:
+  #cls, #clear         Clears the contents of the editor window, leaving history and execution context intact.
+  #help                Display help on specified command, or all available commands and key bindings if none specified.
+  #reset               Reset the execution environment to the initial state, keep history.
+Script directives:
+  #r                   Add a metadata reference to specified assembly and all its dependencies, e.g. #r "myLib.dll".
+  #load                Load specified script file and execute it, e.g. #load "myScript.csx". 

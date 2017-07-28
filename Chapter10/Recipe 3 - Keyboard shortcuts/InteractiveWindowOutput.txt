@@ -1,0 +1,18 @@
+Microsoft (R) Roslyn C# Compiler version 2.1.0.61520
+Loading context from 'CSharpInteractive.rsp'.
+Type "#help" for more information.
+> "World!"
+"World!"
+> "Hello, " + "World!"
+"Hello, World!"
+> @"Hello, World
+. with a new line!"
+"Hello, World\r\nwith a new line!"
+> @"Hello, World
+. with a new line!"
+"Hello, World\r\nwith a new line!"
+> "Hello, " + "World!"
+"Hello, World!"
+> "World!"
+"World!"
+> 

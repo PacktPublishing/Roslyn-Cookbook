@@ -1,0 +1,45 @@
+c:\>csi.exe
+Microsoft (R) Visual C# Interactive Compiler version 2.1.0.61520
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Type "#help" for more information.
+> Console.WriteLine("Hello, World!")
+Hello, World!
+> ^C
+c:\>csi MyScript.csx 1 2 3
+csi
+MyScript.csx
+1
+2
+3
+
+c:\>csi -i MyScript.csx 1 2 3
+csi
+-i
+MyScript.csx
+1
+2
+3
+> Console.WriteLine(t.Length)
+6
+> ^C
+c:\>csi -i
+Microsoft (R) Visual C# Interactive Compiler version 2.1.0.61520
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Type "#help" for more information.
+> #help
+Keyboard shortcuts:
+  Enter         If the current submission appears to be complete, evaluate it.  Otherwise, insert a new line.
+  Escape        Clear the current submission.
+  UpArrow       Replace the current submission with a previous submission.
+  DownArrow     Replace the current submission with a subsequent submission (after having previously navigated backwards).
+  Ctrl-C        Exit the REPL.
+REPL commands:
+  #help         Display help on available commands and key bindings.
+Script directives:
+  #r            Add a metadata reference to specified assembly and all its dependencies, e.g. #r "myLib.dll".
+  #load         Load specified script file and execute it, e.g. #load "myScript.csx".
+> ^C
+c:\>csi 1 2 3
+error CS2001: Source file 'c:\1' could not be found.
