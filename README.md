@@ -41,9 +41,3 @@ Following is the software-hardware list:
   
   
 * [C# 7 and .NET Core: Modern Cross-Platform Development - Second Edition](https://www.packtpub.com/application-development/c-7-and-net-core-modern-cross-platform-development-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787129559)
-  
- 
-
-### Suggestions and Feedback
-  
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
